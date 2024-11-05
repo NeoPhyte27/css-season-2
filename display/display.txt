@@ -12,3 +12,24 @@
 
     ELement HTML untuk display inline
     b, strong, i, em, a, span, sub, sup, button, input, label, select, textarea, ...
+
+caution = jika di antar di atas tidak bisa di atur maka kita menggunakan display inline-block
+
+- display inline block
+    1. Tidak ada elemen yang secara default memiliki 
+    display: inline-block;
+    2. Kita harus ubah secara manual properti tersebut
+    3. Perilaku dasarnya sama dengan elemen inline
+
+- block
+    1. ELemen HTML yang secara default menambahkan baris baru ketika dibuat
+    2. Jika tidak diatur lebar-nya, maka lebar default dari elemen block akan memenuhi lebar dari browser / parent / window nya
+    3. Kita dapat mengatur tinggi dan lebar dari element block
+    4. Di dalam elemen blcok, kita dapat menyimpan tag dengan elemen inline, inline-block, atau bahkan elemen block lagi
+
+    element HTML untuk diplay : block;
+    h1-h6, p, ol, ul, li, form, hr, div, ...
+
+- none
+    1. Digunakan untuk menghilangkan sebuah elemen
+
