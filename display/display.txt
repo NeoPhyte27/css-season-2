@@ -1,0 +1,14 @@
+   display ini ada 4 yaitu
+    - inline
+    - inline-block
+    - block
+    - none
+ 
+ - inline
+    1. Elemen HTML yang secara default tidak menambahkan baris baru ketika di buat
+    2. Lebar dan tinggi elemennya sebesar konten yang ada di dalamnya
+    3. Kita tidak dapat mengatur tinggi dan lebar dari elemen inline
+    4. margin dan padding hanya mempengaruhi elemen secara horizontal, tidak vertikal
+
+    ELement HTML untuk display inline
+    b, strong, i, em, a, span, sub, sup, button, input, label, select, textarea, ...
