@@ -10,7 +10,7 @@ itu adalah satuan nya
 overflow di gunakan untuk perilaku yang kasusnya tulisan atau gambar yang melebihi parentnya atau melebihi elementnya sendiri
 
 ada 4 value overflow yang bisa digunakan
-    visible
-    auto
-    hidden
-    scroll
+    - visible ( default )
+    - auto ( css akan secara otomatis scroll jika kontent nya melebihi parent atau elementnya )
+    - hidden
+    - scroll
