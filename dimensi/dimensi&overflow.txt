@@ -12,5 +12,5 @@ overflow di gunakan untuk perilaku yang kasusnya tulisan atau gambar yang melebi
 ada 4 value overflow yang bisa digunakan
     - visible ( default )
     - auto ( css akan secara otomatis scroll jika kontent nya melebihi parent atau elementnya )
-    - hidden
+    - hidden ( kontennya atau text yang di dalam akan di sembunyikan maka hanya tersisa sedikit mengikuti dengan width dan heigtnya)
     - scroll
