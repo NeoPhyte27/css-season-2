@@ -1,0 +1,8 @@
+mengatur ukuran pada element itu di sebut dimensi css
+
+css yang ada dimensi
+width & heigt
+        px (absolute)
+        % (relative)
+in,cm,mm,pt,cc
+itu adalah satuan nya
