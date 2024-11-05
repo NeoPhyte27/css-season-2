@@ -1,0 +1,287 @@
+/* reset css */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* clear css */
+.cf:before,
+.cf:after {
+  content: ' '; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  zoom: 1;
+}
+
+/* style saya */
+
+body {
+  font: 16px/20px arial, sans-serif;
+  background-image: url(/zoro.jpg);
+  color: #333;
+}
+
+.topbar {
+  position: fixed;
+  background-color: aqua;
+  height: 60px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  border-bottom: 4px solid salmon;
+  line-height: 60px;
+  box-sizing: border-box;
+}
+
+.topbar .navbar{
+  float: right;
+  text-transform: uppercase;
+}
+
+.topbar ul li {
+  margin-top: px;
+  display: inline-block;
+  font-weight: bold;
+
+}
+
+.topbar ul li a {
+  text-decoration: none;
+  color: salmon;
+  margin-right: 10px;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  margin-top: 60px;
+  background-color: aliceblue;
+}
+
+/* .container .twitter{
+  position: absolute;
+  background-image: url(/Twitter_Ribbon.png);
+  text-decoration: none;
+} */
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.container .data_diri{
+  margin-top: 5px;
+}
+
+.hero{
+  background-image: url(/paper.jpg);
+  background-size: cover;
+  background-position: 0 -20px;
+  height: 300px;
+}
+
+.main{
+  box-sizing: border-box;
+  width: 600px;
+  padding: 10px;
+  float: left;
+}
+
+.main h2{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main .penulis{
+  font-size: 14px;
+  text-align: center;
+}
+
+.content .penulis a{
+  text-decoration: none;
+  color: red;
+}
+
+.content .penulis a:hover{
+  color: aliceblue;
+  background-color: #333;
+}
+
+.main p{
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.sidebar{
+  width: 300px;
+  float: right;
+  text-align: justify;
+}
+
+.sidebar .foto{
+  width: 150px;
+  float: left;
+  padding-right: 5px;
+}
+
+.footer{
+  background-color: #333;
+  height: 30px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer .copy a{
+  color: red;
+  text-decoration: none;
+}
+
+.footer .copy a:hover{
+  background-color: aliceblue;
+  color: blue;
+}
+
+
+
+

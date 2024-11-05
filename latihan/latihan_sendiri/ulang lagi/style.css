@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style sendiri */
+
+body{
+  font: 16px/20px arial, sans-serif;
+  color: #333;
+  background-image: url(zoro.jpg);
+}
+
+.kepala{
+  height: 50px;
+  background-color: burlywood;
+}
+
+.kepala h1{
+  display: inline-block;
+  margin: auto;
+}
+
+.container{
+  width: 800px;
+  margin: auto;
+  background-color: aliceblue;
+}
+
+.header{
+  padding: 20px;
+}
+
+.header h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header ul li{
+  display: inline-block;
+  padding-top: 5px;
+  margin-right: 5px;
+}
+
+.header ul li a{
+  text-decoration: none;
+  color: brown;
+}
+
+.header ul li a:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+.hero{
+  height: 280px;
+  background-image: url(paper.jpg);
+  background-size: cover;
+  background-position: 0 -20px;
+}
+
+.content{
+  padding: 10px;
+  text-align: justify;
+}
+
+.content h2{
+  font-size: 30px;
+  font-weight: bold;  
+}
+
+.content .penulis{
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.content .penulis a{
+  text-decoration: none;
+  color: red;
+}
+
+.content .penulis a:hover{
+  background-color: black;
+  color: aliceblue;
+}
+
+.content p{
+  margin-top: 10px;
+}
+
+.footer{
+  background-color: #333;
+}
+
+.footer .copy{
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover{
+  background-color: black;
+  color: red;
+}
