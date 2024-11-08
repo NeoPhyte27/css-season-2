@@ -1,14 +1,11 @@
-
  .cf:before,
  .cf:after {
      content: " "; /* 1 */
      display: table; /* 2 */
  }
- 
 .cf:after {
   clear: both;
  }
-
  .cf {
      zoom: 1;
  }
@@ -39,5 +36,5 @@
   width: 150px;
   height: 500px;
   background-color: limegreen;
-  float: right;
+  float: left;
 }
