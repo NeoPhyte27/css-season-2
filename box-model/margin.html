@@ -1,16 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Margin</title>
-    <style>
 
-    </style>
-</head>
-<body>
-    <div class="satu">1</div>
-    <div class="dua">2</div>
-    <div class="tiga">3</div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Margin</title>
+        <style>
+            /*
+        cara pakainya
+        .satu{
+            width: 200px;
+            height: 200px;
+            background-color: lightgreen;
+            margin-left: 100px;
+            margin-top: 30px;
+            margin-bottom: 150px;
+            margin-right: 50px;
+        }
+        .dua{
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+        }
+        .tiga{
+            width: 50px;
+            height: 50px;
+            background-color: violet;
+        }
+        */
+
+            /* negetif
+        .satu{
+           width: 200px;
+           height: 200px;
+           background-color: lightgreen;
+           margin-bottom: 30px;
+       }
+       .dua{
+           width: 100px;
+           height: 100px;
+           background-color: lightblue;
+           margin-top: -50px;
+           margin-left: -120px;
+       }
+       .tiga{
+           width: 50px;
+           height: 50px;
+           background-color: violet;
+       }
+         */
+
+            /* auto
+         .satu{
+          width: 200px;
+          height: 200px;
+          background-color: lightgreen;
+          margin-left: auto;
+          margin-right: auto;
+       }
+       .dua{
+           width: 100px;
+           height: 100px;
+           background-color: lightblue;
+           margin-left: auto;
+           margin-right: auto;
+       }
+       .tiga{
+           width: 50px;
+           height: 50px;
+           background-color: violet;
+           margin-left: auto;
+           margin-right: auto;
+      }
+          */
+          /* shorthand
+           */
+            .satu {
+                width: 200px;
+                height: 200px;
+                background-color: lightgreen;
+                /* untuk seluruh value margin */
+                margin: 50px;
+            }
+
+            .dua {
+                width: 100px;
+                height: 100px;
+                background-color: lightblue;
+                /* untuk 2 value */
+                margin: 50px auto;
+            }
+
+            .tiga {
+                width: 50px;
+                height: 50px;
+                background-color: violet;
+                /* untuk 3 value */
+                margin : 30px auto 40px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="satu">1</div>
+        <div class="dua">2</div>
+        <div class="tiga">3</div>
+    </body>
+
 </html>

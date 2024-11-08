@@ -20,12 +20,14 @@ caution = jika di antar di atas tidak bisa di atur maka kita menggunakan display
     display: inline-block;
     2. Kita harus ubah secara manual properti tersebut
     3. Perilaku dasarnya sama dengan elemen inline
+    4. display ini akan sejajar horizontal
 
 - block
     1. ELemen HTML yang secara default menambahkan baris baru ketika dibuat
     2. Jika tidak diatur lebar-nya, maka lebar default dari elemen block akan memenuhi lebar dari browser / parent / window nya
     3. Kita dapat mengatur tinggi dan lebar dari element block
     4. Di dalam elemen blcok, kita dapat menyimpan tag dengan elemen inline, inline-block, atau bahkan elemen block lagi
+    5. displat ini akan sejajar vertikal
 
     element HTML untuk diplay : block;
     h1-h6, p, ol, ul, li, form, hr, div, ...

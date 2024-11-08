@@ -41,3 +41,35 @@ adapun yang harus di gunakan margin
     3. negatif margin ( cuma ada di margin nilai negatif)
     4. auto
     5. shorthand
+
+overlapping margin
+    - jika margin vertikal maka margin yang di pilih adalah yang paling besar nilainya, berlaku untuk margin left dan right
+    - jika margin horizontal maka akan di jumlahkan margin nya, berlaku untuk margin left dan right
+    - ini berlaku untuk display inline,inline-block
+
+negatif
+    - akan membuat kotak berlawanan arah
+
+auto
+    - khusus untuk margin left dan right
+
+shorthand margin
+    margin : 50px;
+        - jika value cuma satu maka setiap sisi akan di isi dengan value yang sama
+    margin : 50px 20px;
+        - jika value ada 2 maka akan di baca
+            1. value pertama untuk atas bawah
+            2. value kedua untuk kiri kanan
+    margin : 30px 50px 40px;
+        - jika value ada 3 maka akan di baca
+            1. value pertama untuk atas
+            2. value kedua untuk kiri kanan
+            3. value ketiga untuk bawah
+    margin : 10px 20px 30px 40px;
+        - jika value ada 4 maka akan di baca secara arah jarum jarum 
+            1. value pertama untuk atas
+            2. value kedua untuk kanan
+            3. value ketiga untuk bawah
+            2. value kedua untuk kiri
+
+    
