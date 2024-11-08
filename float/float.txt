@@ -21,3 +21,16 @@ yang bisa dilakukan menggunakan properti float
 jika tidak masuk dalam kotak atau parent nya maka di bilang colab atau runtuh
 
 untuk membuat float harus sesuaikan lebar parentnya
+
+cara menghentikan / membersihkan float
+    - menggunakan properti overflow ( bukan solusi paling tepat )
+    - menggunakan <div> kosong
+    - menggunakan teknik micro clearfix
+
+clear => berfungsi menghentikan / membersihkan float
+    - cara gunakan nya menggunakan div kosong di akhir element yang mau di float
+
+value dalam clear
+    - left ( jika float ke left pakai clear left)
+    - right ( jika float ke right pakai clear right)
+    - both ( jika tidak mau ribet pakai clear both saja karna ini membersihkan right dan left)
