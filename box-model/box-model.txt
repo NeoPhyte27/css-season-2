@@ -33,8 +33,11 @@ border-top                   border-left
 padding-right               border
 padding-bottom
 
+total dimensi = width/height + padding + border
+harus mengetahui kalkulasinya
 
 
+MARGIN
 adapun yang harus di gunakan margin
     1. cara pakainya
     2. overlapping margin( dua margin saling bertemu )
@@ -72,4 +75,24 @@ shorthand margin
             3. value ketiga untuk bawah
             2. value kedua untuk kiri
 
-    
+
+PADDING
+    - untuk padding sama dengan margin
+    - padding menambah ukuran elemen
+    - padding tidak ada nilai negatif
+    - padding tidak memiliki nilai auto
+
+BORDER
+    - border sama seperti padding
+    - border memiliki 3 bagian yaitu
+        1. ukuran
+        2. style
+            - solid ( garis satu )
+            - dotted ( titik )
+            - dashed (garis 1 panjang tapi ada spasi )
+            - double ( double garis )
+        3. warna
+
+BOX SIZING
+    - membuat lebar kotak akan sama seperti ukuran nyaa, cuma di dalam nya bisa di ubah"
+    - ini cuma berlaku ke padding dan border
