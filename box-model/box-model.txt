@@ -32,3 +32,12 @@ padding-bottom
 border-top                   border-left
 padding-right               border
 padding-bottom
+
+
+
+adapun yang harus di gunakan margin
+    1. cara pakainya
+    2. overlapping margin( dua margin saling bertemu )
+    3. negatif margin ( cuma ada di margin nilai negatif)
+    4. auto
+    5. shorthand
