@@ -1,0 +1,37 @@
+position memungkinkan kita untuk menggeserkan sebuah element tanpa memengaruhi element di sekitarnya
+
+value yang di dalam position
+    - static ( default )
+    - relative ( positionnya naik satu tingkat/dimensi, tetapi tidak menjatuhkan/mengganggu elemen lain nya )
+    - absolute
+    - fixed
+
+css position
+static
+    - static adalah nilai default dari tiap-tiap elemen ketika tidak diberi properti position
+    - menggunakan position selain static ( non-static ), akan membuat sebuah elemen menjadi seolah-olah berbeda dimensi dari elemen lainnya
+    - elemen yang diberi position selain static dapat menggunakan properti :
+        1. top
+        2. left
+        3. bottom
+        4. right
+    ini di untuk mengatur posisinya
+
+relative
+    - ketika kita menggerakkan elemen dengan posisi relative ( menggunakan properti top, left, bottom, dan right), ruang yang di tempati oleh element tersebut masih ada
+    - ketika kita menggerakkan elemen dengan posisi relative, elemen akan bergerak relatif terhadap posisi semula-nya
+    - jika kita memberi properti top: 0; dan left: 0; maka element tidak berubah posisi
+
+absolute
+    - ketika kita menggerakkan elemen dengan posisi absolute ( menggunakan properti top, left, bottom dan right), ruang yang di tempati oleh elemen tersebut dianggap tidak ada
+    - ketika kita menggerakkan elemen dengan posisi absolute, elemen akan bergerak relatif terhadap posisi dari element parent-nya.
+    selama elemen parent-nya memiliki posisi yang juga non-static
+    - jika kita memberi properti top: 0; dan left: 0; maka element akan berada di ujung kiri atas dari element parent-nya
+    - 
+
+fixed
+    - ketika kita menggerakkan elemen dengan posisi absolute ( menggunakan properti top, left, bottom dan right), ruang yang di tempati oleh elemen tersebut dianggap tidak ada
+    - ketika kita menggerakkan elemen dengan posisi absolute, elemen akan bergerak relatif terhadap posisi dari element parent-nya.
+    selama elemen parent-nya memiliki posisi yang juga non-static
+    - jika kita memberi properti top: 0; dan left: 0; maka element akan berada di ujung kiri atas dari element parent-nya
+    - elemen akan " terkunci " dan tidak bergerak dari posisinya meskipun halaman di-scrool
