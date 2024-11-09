@@ -1,0 +1,2 @@
+z index untuk mengatur tumpukan dari elemen, ketika elemennya non-static
+semangkin besar angka z-indexnya maka akan semakin di depan
